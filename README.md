@@ -1,4 +1,4 @@
-# 🕵️ OriginIP Tool v1.0
+# OriginIP Tool v1.0
 **Discover the true origin IPs behind WAF/CDN-protected domains.**  
 Developed by [@Maakthon](https://github.com/Maldevo)
 
@@ -11,6 +11,20 @@ Developed by [@Maakthon](https://github.com/Maldevo)
 It gathers potential IPs from multiple intelligence sources (Shodan, VirusTotal, ViewDNS, etc.) and validates them using various techniques like reverse DNS, SSL certificate inspection, HTTP responses, and more.
 
 ---
+## Usage
+```
+python OriginIP.py -u https://targetdomain.com
+```
+### All results are saved in the ./results/ directory.
+
+***Example output files:***
+```
+targetdomain.com-2025-07-31-15:22:00.txt — raw IPs
+
+targetdomain.com-validated-2025-07-31-15:22:00.txt — validated origin IPs
+
+targetdomain.com-debug-2025-07-31-15:22:00.json — IP to hostname mappings
+```
 
 ## Features
 
@@ -57,13 +71,8 @@ It gathers potential IPs from multiple intelligence sources (Shodan, VirusTotal,
     virustotal=YOUR_VIRUSTOTAL_KEY
     alienvault=YOUR_ALIENVAULT_KEY
   ```
+```
 
-All results are saved in the ./results/ directory.
 
-Example output files:
 
-    targetdomain.com-2025-07-31-15:22:00.txt — raw IPs
-
-    targetdomain.com-validated-2025-07-31-15:22:00.txt — validated origin IPs
-
-    targetdomain.com-debug-2025-07-31-15:22:00.json — IP to hostname mappings 
+Developed by Mahmoud Abdalkarim (@Maakthon)
