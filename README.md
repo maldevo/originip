@@ -55,7 +55,7 @@ targetdomain.com-debug-2025-07-31-15:22:00.json — IP to hostname mappings
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/maakthon/OriginIP.git
+   git clone https://github.com/maldevo/OriginIP
    cd OriginIP
    ```
 2. **Clone the repo**
