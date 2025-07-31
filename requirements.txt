@@ -1,0 +1,6 @@
+requests
+shodan
+mmh3
+dnspython
+pyOpenSSL
+wafw00f
