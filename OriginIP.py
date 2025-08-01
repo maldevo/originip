@@ -73,7 +73,7 @@ if __name__ == "__main__":
 			f.write("\n")
 		f.close()
 
-	with open(f"./results/{ParsedDomain}-debug-{timestamp}.json","w") as f:
+	with open(f"./results/{ParsedDomain}-map-{timestamp}.json","w") as f:
 		for ip_host in Validate.IPHostname.items():
 			ip_host = str(ip_host)
 			f.write(ip_host)
