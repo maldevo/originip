@@ -1,6 +1,6 @@
 # OriginIP Tool v1.0
 **Discover the true origin IPs behind WAF/CDN-protected domains.**  
-Developed by [@Maakthon](https://github.com/Maldevo)
+Developed by [@Maakthon](https://x.com/Maakthon)
 
 ---
 
