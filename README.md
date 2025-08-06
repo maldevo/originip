@@ -58,8 +58,7 @@ targetdomain.com-debug-2025-07-31-15:22:00.json — IP to hostname mappings
    git clone https://github.com/maldevo/OriginIP
    cd OriginIP
    ```
-2. **Clone the repo**
-   ***Install dependencies***
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
@@ -70,9 +69,8 @@ targetdomain.com-debug-2025-07-31-15:22:00.json — IP to hostname mappings
     securitytrails=YOUR_SECURITYTRAILS_KEY
     virustotal=YOUR_VIRUSTOTAL_KEY
     alienvault=YOUR_ALIENVAULT_KEY
-  ```
-```
 
+  
 
 
 Developed by Mahmoud Abdalkarim (@Maakthon)
